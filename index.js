@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client
-client.login(process.env.TOKEN) //Lien du bot: https://discordapp.com/oauth2/authorize?client_id=664527386603421697&scope=bot&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2F4X5aQRn
+client.login(process.env.TOKEN) 
 
 
 let prefix = ';'
@@ -8,6 +8,7 @@ let joinleavechannel = '671033366644260874'
 let commandschannel = '593820160951975936'
 let server = '591932173263568896'
 
+// dev by kazushi | Blitz 
 
 client.on('ready', function (){
     client.user.setActivity(prefix + 'help | GFXserver')
@@ -239,3 +240,6 @@ client.on('guildMemberRemove', member => {
 
     }
 })
+
+
+// dev by kazushi | Blitz  discord.gg/blitz
