@@ -122,7 +122,7 @@ client.on('message', function(message){
                let notinserveur = new Discord.RichEmbed()
                .setColor('#FF2E2E')
                .setDescription(message.author.username + ', cette commande n\'est seulement accecible sur [mon serveur](https://discord.gg/4X5aQRn) !')
-               .setFooter(client.user.username + ', bot for the GFXserver ! Develloped by Flymeth#6242', client.user.avatarURL)
+               .setFooter(client.user.username + ', bot for the GFXserver ! Develloped by kazushi', client.user.avatarURL)
 
                message.channel.send(notinserveur).then(message => message.delete(7000))
 
