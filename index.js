@@ -8,7 +8,7 @@ let joinleavechannel = '671033366644260874'
 let commandschannel = '593820160951975936'
 let server = '591932173263568896'
 
-// dev by kazushi | Blitz 
+// dev by flayune
 
 client.on('ready', function (){
     client.user.setActivity(prefix + 'help | GFXserver')
